@@ -1,0 +1,62 @@
+.optionColor button
+{
+    width: 100%;
+    height: 50px;
+}
+.row-colors .item, .row-colors .palette>div {
+    padding: 0 5px!important;
+}
+.row-colors
+{
+    margin-bottom: 10px!important;
+}
+.colorBg {
+    height: 85px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 5px 8px;
+    font-size: 12px;
+    line-height: 1;
+    cursor: pointer;
+}
+.colorBg .color-title {
+    font-weight: 600;
+    font-size: 13px;
+}
+.colorBg .code {
+    white-space: nowrap;
+}
+.picture
+{
+    height:200px;
+    width: 54%;
+}
+.picColor
+{
+    height:200px;
+    width: 45%;
+}
+
+@media(max-width:428px) {
+    .color-title{
+        display: none !important;
+    }
+    .picColor
+    {
+        display:none;
+    }
+    .picture
+    {
+    height:200px;
+    width: 100%;
+    background-position: center ;
+    }
+    .row {
+        margin: 0 !important;
+    }
+
+}
