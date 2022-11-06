@@ -6,6 +6,13 @@ body{
   box-sizing: border-box;
   /* background: #f2f2f2; */
 }
+.bg-head
+{
+ background-color: #07396b!important
+}
+.slogan{
+  color:white !important
+}
 .navLi li {
   margin-top: 18px;
   font-size: 17px;
@@ -33,8 +40,7 @@ li {
 .con-tooltip {
   position: relative;
   border-radius: 9px;
-  margin-top: 15px;
-  display: inline-block;
+  margin-top: 20px;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   color: #2c2c25;
@@ -52,13 +58,13 @@ li {
   visibility: hidden;
   z-index: 1000;
   opacity: 0.4;
-  width: 900px;
+  width: 400px;
   height: 200px;
-  background: rgb(231, 230, 230);
+  background: #fcfcfc;
   color: #000000;
   position: absolute;
-  top: -140%;
-  left: -25%;
+  top: -60%;
+  left: 52%;
   border-radius: 9px;
   font: 16px;
   transform: translateY(9px);
@@ -83,18 +89,67 @@ li {
 .tooltip div {
   z-index: 1000;
 }
+
 /* tooltip  after*/
 .tooltip::after {
   content: " ";
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 12px 12.5px 0 12.5px;
-  border-color: #333 transparent transparent transparent;
+  border-width:  12px  ;
+  border-color: transparent   transparent transparent  #333;
   position: absolute;
-  left: 40%;
+  top: 17%;
+  left:-2px;
 }
-
+.tol-2{
+  top: -165% !important;
+}
+.tol-2::after{
+  top: 37% !important;
+}
+.tol-3{
+  top: -270% !important;
+}
+.tol-3::after{
+  top: 47% !important;
+}
+.tol-4{
+  top: -270% !important;
+}
+.tol-4::after{
+  top: 67% !important;
+}
+.tol-5{
+  top: -370% !important;
+}
+.tol-5::after{
+  top: 67% !important;
+}
+.tol-6{
+  top: -370% !important;
+}
+.tol-6::after{
+  top: 67% !important;
+}
+.tol-7{
+  top: -370% !important;
+}
+.tol-7::after{
+  top: 70% !important;
+}
+.tol-8{
+  top: -370% !important;
+}
+.tol-8::after{
+  top: 77% !important;
+}
+.tol-9{
+  top: -370% !important;
+}
+.tol-9::after{
+  top: 92% !important;
+}
 .con-tooltip:hover .tooltip {
   visibility: visible;
   transform: translateY(-10px);
@@ -118,7 +173,7 @@ li {
 
 .bottom .tooltip {
   top: 115%;
-  left: -20%;
+  right: 20%;
 }
 
 .bottom .tooltip::after {
@@ -132,7 +187,6 @@ li {
 }
 /* Small devices (landscape phones, 576px and up) */
 .contact{
-
   cursor: pointer;
   z-index: 200000 !important
   /* background-color: #c1d50a; */
@@ -178,6 +232,8 @@ li {
   #neubar a {
     padding-left:12px;
     padding-right:12px;
+    color: white;
+    font-size:18px;
   }
   #neubar .dropdown-menu {
     background : #545454
@@ -203,10 +259,7 @@ li {
     .navItem{
       display:none
     }
-    .single
-    {
-      display: none !important;
-    }
+
 }
 
   .single {
@@ -244,6 +297,10 @@ li {
     .single li:last-child a {
     border-bottom: 0; }
 
+    .single2{
+      padding: 30px 15px;
+      margin-top: 20px;
+      border: 1px solid #f0f0f0; }
 
     #wrapper {
       -webkit-transition: all 0.6s ease;
@@ -392,6 +449,10 @@ li {
           position: relative;
           margin-right: 0;
       }
+      /* .logobrand
+      {
+        display:none !important;
+      } */
     }  
 
 

@@ -28,24 +28,7 @@ body {
 .description span {
   font-size:14px;
 }
-.limited{
-  max-height: 330px;
-  overflow: hidden;
-}
-.showInfo
-{
-  display: block;
-  text-align: center;
-  height: 43px;
-  border-radius: 8px;
-  border: 1px solid #2d3031;
-  font: 16px/39px "RobotoMedium";
-  color: #ff0000;
-  margin-top: 10px;
-  transition: all 0.4s;
-  cursor: pointer;
-  font-size: 20px;
-}
+
 .cart a{
   color:black !important;
 }

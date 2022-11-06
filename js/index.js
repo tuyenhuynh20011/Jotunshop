@@ -1,5 +1,3 @@
-
-
 document.addEventListener("DOMContentLoaded", function(){
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
@@ -32,8 +30,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
   $(document).ready(function()
 {
-
-   
         if($('.bbb_viewed_slider').length)
         {
             var viewedSlider = $('.bbb_viewed_slider');
@@ -74,6 +70,4 @@ document.addEventListener("DOMContentLoaded", function(){
                 });
             }
         }
-
-
     });

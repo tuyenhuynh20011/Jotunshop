@@ -26,14 +26,14 @@ a{
 }
 .bigProd
 {
-  height:590px;
+  height:300px;
 } 
 
 .product-card {
   position: relative;
   box-shadow: 0 2px 7px #dfdfdf;
-  background: #fafafa;
-  
+  background: #ffffff;
+  height:330px  
 }
 
 .product-tumb:hover{
@@ -55,10 +55,11 @@ a{
 .product-tumb {
   align-items: center;
   justify-content: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  background: #f0f0f0;
+  /* padding-left: 35px;
+  padding-right: 20px; */
+  background: #ffffff;
   transition: transform .5s;
+  height: 70%;
 }
 
 .product-tumb img {
@@ -105,9 +106,9 @@ a{
 }
 
 .product-price {
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 550;
   color: #fbb72c;
-  font-weight: 600;
 }
 
 .product-price small {
@@ -138,20 +139,10 @@ a{
   }
 }
 
-@media (max-width:768px) {
-  .product-card{
-    display: none !important;;
-  }
-  .product-card:nth-child(1)
+@media (max-width:767px) {
+  .single
   {
-    display: block !important;
-    margin-top: 10px!important;
-  }
-  .product-card:nth-child(2)
-  {
-    display: block !important;
-    margin-top: 10px!important;
-
+    display:none
   }
 }
 @media  (max-width: 994px) {
@@ -171,21 +162,76 @@ a{
   {
     margin-top:11px;
   }
-}
-@media(max-width:414px) {
-  .product-card{
-    display: none !important;;
-  }
-  .product-card:nth-child(1)
+  .product-tumb 
   {
-    display: block !important;
-    margin-top: 10px!important;
+    padding-left: 2px;
+    padding-right:2px
   }
-  .product-card:nth-child(2)
+  .list-group
   {
-    display: block !important;
-    margin-top: 10px!important;
-
+    display: none;
   }
+ 
 }
 
+@media(max-width:428px) {
+  .product-price
+  {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .product-details
+  {
+    padding: 0;
+  }
+  .product-catagory
+  {
+    font-size:12px;
+  }
+  .product-card
+  {
+  height: 290px
+  }
+
+  .kova img
+  {
+    height:55px !important;
+  }
+  .col-detail
+  {
+    display:none
+  }
+  .img_table
+  {
+    width:150px !important; 
+    height:150px !important;
+  }
+}
+
+.limited{
+  max-height: 670px;
+  overflow: hidden;
+}
+.showInfo
+{
+  display: block;
+  text-align: center;
+  height: 43px;
+  border-radius: 8px;
+  border: 1px solid #2d3031;
+  font: 16px/39px "RobotoMedium";
+  color: #ff0000;
+  margin-top: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.logobrand img{
+  width: 100%;
+}
+.img_table
+{
+  width:200px;
+  height:200px;
+}
