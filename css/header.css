@@ -351,6 +351,7 @@ li {
       display: block;
       text-decoration: none;
       color: #999999;
+      
   }
   
   .sidebar-nav li a:hover {
@@ -453,6 +454,9 @@ li {
       {
         display:none !important;
       } */
+      .sidebar-nav span {
+        font-size: 18px;
+      }
     }  
 
 
