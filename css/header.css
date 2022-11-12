@@ -86,12 +86,15 @@ li {
 .tooltip ul li a:hover {
   color: rgb(202, 180, 33) !important;
 }
-.tooltip div {
-  z-index: 1000;
+.con-tooltip  a:hover {
+  color: rgb(218, 14, 14) !important;
 }
+/* .tooltip div {
+  z-index: 1000;
+} */
 
 /* tooltip  after*/
-.tooltip::after {
+/* .tooltip::after {
   content: " ";
   width: 0;
   height: 0;
@@ -149,8 +152,8 @@ li {
 }
 .tol-9::after{
   top: 92% !important;
-}
-.con-tooltip:hover .tooltip {
+} */
+/* .con-tooltip:hover .tooltip {
   visibility: visible;
   transform: translateY(-10px);
   opacity: 1;
@@ -180,7 +183,7 @@ li {
   top: -6%;
   left: 6%;
   transform: rotate(180deg);
-}
+} */
 .page-item
 {
   display:none;
@@ -467,7 +470,7 @@ li {
       width: 160px;
       height: 160px;
       bottom: 7px;
-      right: 10px;
+      left: -10px;
       position: fixed;
       background-color: transparent;
       -webkit-border-radius: 100%;
@@ -498,7 +501,7 @@ li {
       width: 100px;
       height: 100px;
       bottom: 38px;
-      right: 40px;
+      left: 20px;
       position: fixed;
       background-color: #000;
       -webkit-border-radius: 100%;
@@ -522,7 +525,7 @@ li {
       width: 60px;
       height: 60px;
       bottom: 58px;
-      right: 60px;
+      left: 40px;
       position: fixed;
       background: rgba(30, 30, 30, 0.1) url(https://drive.google.com/uc?id=1V3N2b79QjDWetC_ss9wI3c-xpWDymn9R) no-repeat center center;
       -webkit-border-radius: 100%;
@@ -780,3 +783,11 @@ li {
       }
     }
       
+
+    #btn-back-to-top {
+      position: fixed;
+      bottom: 60px;
+      right: 20px;
+      display: none;
+      z-index: 1000;
+    }

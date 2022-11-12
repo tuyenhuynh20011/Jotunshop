@@ -171,6 +171,10 @@ a{
   {
     display: none;
   }
+  .col-detail
+  {
+    display:none
+  }
  
 }
 
@@ -221,6 +225,9 @@ a{
     border-bottom: 0;
     border-left: 0.5em solid transparent;
   }    
+  #blog_post table td {
+    padding: 4px !important;
+  }
 }
 
 .limited{
@@ -249,4 +256,22 @@ a{
 {
   width:200px;
   height:200px;
+}
+
+
+#blog_post table {
+  background-color: #ebeaea;
+  border-spacing: 2px;
+  max-width: 100%;
+  margin: 10px 0px 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+#blog_post table td {
+  background-color: #eeebeb;
+  border: 1px solid #333;
+  vertical-align: middle;
+  padding: 5px;
 }
